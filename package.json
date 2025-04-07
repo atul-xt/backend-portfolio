@@ -7,8 +7,9 @@
   "type": "commonjs",
   "main": "src/app.js",
   "scripts": {
+    "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "start": "node src/app.js"
+    "build": "echo 'No build needed'"
   },
   "dependencies": {
     "express": "^5.1.0",
